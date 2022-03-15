@@ -17,6 +17,14 @@
   padding-left: 5px;
 }
 
+.addContact img{
+  height: 200px;
+  width: 200px;
+  border-radius: 50%;
+  object-fit: cover;
+  margin: auto;
+}
+
 .addContact input:focus{
   outline: none;
 }
