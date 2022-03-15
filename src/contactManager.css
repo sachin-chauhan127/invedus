@@ -1,4 +1,4 @@
-.taskManager > header{
+.contactManager > header{
   padding: 25px 20px;
   background-color: hsl(210, 12%, 15%);
   color: white;
@@ -6,7 +6,7 @@
   font-family: cursive;
 }
 
-.taskManager__container {
+.contactManager__container {
   width: 95%;
   margin: 50px auto 0 auto;
   display: flex;
@@ -14,7 +14,7 @@
   flex-direction: column;
 }
 
-.taskManager__container > button {
+.contactManager__container > button {
   border-radius: 5px;
   border: none;
   color: white;
@@ -25,15 +25,15 @@
   cursor: pointer;
 }
 
-.taskManager__container > button:hover{
+.contactManager__container > button:hover{
   background-color: hsl(210, 12%, 25%);
 }
 
-.taskManager__container > button:active{
+.contactManager__container > button:active{
   background-color: hsl(210, 12%, 15%);
 }
 
-.taskManager__tasks{
+.contactManager__contacts{
   display: flex;
   flex-direction: column;
   gap: 20px;
